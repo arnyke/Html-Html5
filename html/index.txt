@@ -1,0 +1,218 @@
+
+ce putem face cu Html?
+
+cu Html putem crea paginile noastre proprii;
+
+Ce este HTML ?
+Html ii Hyper Text Markup Language;
+
+2,3 Cuvinte despre sa infinfata(creat, initializat)...1993 - de catre companiile W3C & WHATWG pt alte info .. Wiki.
+
+Versiunile de HTML; 
+
+HTML    ---1991
+HTML+ 	---1993
+HTML 2.0---1995
+HTML 3.2---1997
+HTML 4.01--1999
+XHTML 	---2000
+HTML5 	---2012
+.........................................
+
+Ca sa rulam Html ce avem nevoi? ... Browser (Chrome, Firefox, Opera, etc);
+Ce avem nevoie pt a scrie coduri Html?? .... Text Editor( Notepad++, Sublime, EditPlus, etc);
+
+Din ce este format Html?
+					- Taguri (Etichete);
+ 					- Elemente;
+ 					- Atribute;
+
+1) Taguri <title> </title>  ||  <> </>;
+2) Element 	<title>Elementul nostru</title>;
+3) Atributu informatii aditionale	<title id="header">Titlu nostru</title>;
+
+Cum Arata structurat HTML
+<html>
+	<body>
+		<h1>This is a heading</h1>
+		<p>This is a paragraph.</p>
+		<p>This is another paragraph.</p>
+	</body>
+</html> 
+
+------------------
+
+Declaratii compune: 
+
+__________HTML5
+
+<!DOCTYPE html> 
+
+__________HTML 4.01
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd"> 
+
+_________XHTML 1.0
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+
+------------------------------------------------------------------------
+
+
+Cand scriem un HTML cum il formam?
+
+HTML se formeaza ca si arborele
+
+	Html
+		head    ----------->fii
+			title
+		body	----------->fii
+			paragrafe --------->copii
+			text
+			img
+			ancora
+
+ prin niste noduri.
+ head si bodi sunt frai.
+ ....................................................
+
+ ___________Atribute HTML;
+
+-alt ----------	Specifies an alternative text for an image
+-disabled ----- Specifies that an input element should be disabled
+-href 	  ----- Specifies the URL (web address) for a link
+-id 	------- Specifies a unique id for an element
+-src 	------- Specifies the URL (web address) for an image
+-style 	------- Specifies an inline CSS style for an element
+-title 	------- Specifies extra information about an element (displayed as a tool tip)
+-value 	------- Specifies the value (text content) for an input element.
+
+.............................................................
+
+________________HTML Text Formatting Elements
+
+<b> 	-Defines bold text 
+<em> 	-Defines emphasized text 
+<i> 	-Defines a part of text in an alternate voice or mood
+<small> -	Defines smaller text
+<strong>- 	Defines important text
+<sub> 	-Defines subscripted text
+<sup> 	-Defines superscripted text
+<ins> 	-Defines inserted text
+<del> 	-Defines deleted text
+<mark> 	-Defines marked/highlighted text
+
+_______________________________________________________________
+
+____________HTML Styles
+
+Use the style attribute for styling HTML elements
+Use background-color for background color
+Use color for text colors
+Use font-family for text fonts
+Use font-size for text sizes
+Use text-align for text alignment
+
+_______________________________________________________________
+
+_____________HTML Comments
+
+<!-- .txt -atribute Html -->
+----------------------------------------------------------------
+_______________HTML Styles - CSS
+---------------------------------------------------------------
+_______________HTML Links   ******************************************
+
+_blank 	- Opens the linked document in a new window or tab
+_self 	- Opens the linked document in the same frame as it was clicked (this is default)
+_parent - Opens the linked document in the parent frame
+_top 	- Opens the linked document in the full body of the window
+framename   -Opens the linked document in a named frame
+
+
+    Use the HTML <a> element to define a link
+    Use the HTML href attribute to define the link address
+    Use the HTML target attribute to define where to open the linked document
+    Use the HTML <img> element (inside <a>) to use an image as a link
+    Use the HTML id attribute (id=value) to define bookmarks in a page
+    Use the HTML href attribute (href="#value") to address the bookmark
+
+http://exemple.com:80/folder/file.php?x=1&y=2#anchore_text
+....______________..._________________......._____________
+
+http:// ------------------> (HTTP (Hypertext Transfer Protocol)), HTTPS (HTTP over SSL(SSL(Secure Sockets Layer))), FTP (File Transfer Protocol)   ->http://dret.net/glossary/protocol
+
+exemple.com: ------------->  domain	
+
+80------------------------>80: Hypertext Transfer Protocol (HTTP) ; 20 & 21: File Transfer Protocol (FTP), 443: HTTP Secure (HTTPS)
+http://en.wikipedia.org/wiki/Port_%28computer_networking%29
+
+folder/file.php? --------->	path -> unde se gaseste
+
+x=1&y=2 ------------------>query -> parametrii.
+
+#anchore_text ------------>anchora, hasu
+
+
+Cum functioneaza protocolu??
+
+
+	Client ---------> Server
+			--------> 
+			Request
+
+			<---------
+			RESPONSE
+
+URL: este prin Get si Post
+
+Request = Connection	keep-alive  ---------------------->tipuri de conexiunir...
+		Content-Type	text/html; charset=utf-8
+		Date	Tue, 14 Oct 2014 15:01:53 GMT
+		Keep-Alive	timeout=15, max=100
+		Server	Apache/2.2.21 (Linux/SUSE)
+		Transfer-Encoding	chunked
+		X-Powered-By	PHP/5.3.8
+		Request Headersview source
+		Accept	text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+		Accept-Encoding	gzip, deflate
+		Accept-Language	en-US,en;q=0.5
+		Cache-Control	max-age=0
+		Connection	keep-alive
+		Cookie	fe_typo_user=8a1890dbf3bc06bf9a50212007633a99; _pk_id.1.e096=a39ba5a976d51335.1413275097.1.1413277597.1413275097.
+		Host	www.stadt-brandenburg.de
+		Referer	http://www.stadt-brandenburg.de/bildung/bildungseinrichtungen/
+		User-Agent	Mozilla/5.0 (X11; Linux x86_64; rv:22.0) Gecko/20100101 Firefox/22.0
+
+
+List of HTTP status codes
+
+en.wikipedia.org/wiki/List_of_HTTP_status_codes
+
+
+    1 1xx Informational
+    2 2xx Success
+    3 3xx Redirection
+    4 4xx Client Error
+    5 5xx Server Error
+    --------
+    6 See also
+    7 References
+    8 External links
+
+
+---------------------------------------------------------------------------------------
+_____________________HTML Tables
+
+<table> 	-Defines a table
+<th> 		-Defines a header cell in a table
+<tr> 		-Defines a row in a table
+<td> 		-Defines a cell in a table
+<caption> 	-Defines a table caption
+<colgroup> 	-Specifies a group of one or more columns in a table for formatting
+<col> 		-Specifies column properties for each column within a <colgroup> element
+<thead> 	-Groups the header content in a table
+<tbody> 	-Groups the body content in a table
+<tfoot> 	-Groups the footer content in a table 
